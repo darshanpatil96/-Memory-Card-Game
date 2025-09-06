@@ -1,0 +1,72 @@
+/* proj.css */
+
+/* General page setup */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  margin: 0;
+}
+
+/* Game board grid */
+.game-board {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  width: 400px;
+}
+
+/* Card wrapper */
+.card {
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  perspective: 1000px; /* enables 3D effect */
+  border-radius: 10px;
+}
+
+/* Inner container for flip animation */
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease;
+}
+
+/* Flip animation */
+.card.flipped .card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Front & Back faces */
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backface-visibility: hidden;
+}
+
+/* Back of card (default) */
+.card-back {
+  background-color: #2d89ef;
+}
+
+/* Front of card (revealed after flip) */
+.card-front {
+  background-color: #f0f0f0;
+  transform: rotateY(180deg);
+}
+
+.card-front i {
+  font-size: 2rem;
+  color: #2d89ef;
+}
