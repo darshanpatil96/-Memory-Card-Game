@@ -31,17 +31,14 @@ Includes a restart button and a clean, responsive design.
 ---
 
 ## 📷 Screenshot
-![Game Screenshot](assets/screenshot.png)
+<img width="1917" height="942" alt="image" src="https://github.com/user-attachments/assets/f3e4098b-5cb8-48bc-91fb-cc628de24384" />
 
-*(Add a screenshot of your game in an `assets` folder and name it `screenshot.png`.)*
-
----
 
 ## 🌐 Live Demo
-👉 [Play the Game](https://your-username.github.io/memory-card-game/)  
+👉 [Play the Game]
 
 *(Enable GitHub Pages in repo settings to host it for free.)*
-
+](https://darshanpatil96.github.io/Memory-Game/)
 ---
 
 ## 📂 Project Structure
