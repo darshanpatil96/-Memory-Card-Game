@@ -37,7 +37,6 @@ Includes a restart button and a clean, responsive design.
 ## 🌐 Live Demo
 👉 [Play the Game]
 
-*(Enable GitHub Pages in repo settings to host it for free.)*
 ](https://darshanpatil96.github.io/Memory-Game/)
 ---
 
