@@ -40,4 +40,4 @@ Includes a restart button and a clean, responsive design.
 ](https://darshanpatil96.github.io/Memory-Game/)
 ---
 
-## 📂 Project Structure
+
